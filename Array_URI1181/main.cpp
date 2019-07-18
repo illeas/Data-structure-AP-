@@ -19,8 +19,7 @@ int main(){
         for(int j = 0; j < 12; j++){
             sum += M[L][j];
         }
-        cout << fixed;
-        cout << setprecision(1);
+        cout << fixed << setprecision(1);
         cout << sum << endl;
     }
     else if(C == 'M'){
@@ -28,8 +27,7 @@ int main(){
             sum += M[L][j];
         }
         res = sum/12.0;
-        cout << fixed;
-        cout << setprecision(1);
+        cout << fixed << setprecision(1);
         cout << res << endl;
     }
     return 0;
